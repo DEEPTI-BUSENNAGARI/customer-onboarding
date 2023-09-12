@@ -1,0 +1,80 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+  }
+
+p{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+    color: #4E5F60;
+}
+
+.content{
+  width:846px;
+  height:564px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+form {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 0px auto;
+    width: 100%;
+    box-shadow: 2px 2px 4px #ccc;
+    padding: 15px;
+  }
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+  }
+
+input[type="text"]{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: #0473EA;
+}
+
+
+.alert {
+  color: red;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#dropdownMenuButton{
+  background: transparent;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: end;
+  color: black;
+}
